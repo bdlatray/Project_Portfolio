@@ -1,4 +1,6 @@
-/* Raw Data Source: https://ourworldindata.org/covid-deaths */
+/* Data Exploration of COVID-19 deaths and vaccinations
+Raw Data Source: https://ourworldindata.org/covid-deaths */
+
 /* Covid Deaths data */
 
 SELECT location, continent, date, total_cases, new_cases, total_deaths, population
