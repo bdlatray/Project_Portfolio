@@ -1,3 +1,4 @@
+/* Raw Data Source: https://ourworldindata.org/covid-deaths */
 /* Covid Deaths data */
 
 SELECT location, continent, date, total_cases, new_cases, total_deaths, population
