@@ -129,24 +129,3 @@ WHERE r1.assessment_name NOT IN ('Combined7Math', 'Combined8Math','MATH3_8','Reg
 	AND r1.per_prof IS NOT NULL
 ORDER BY e1.year, e1.entity_cd
 
-
-
-
-
-------------------------------------
-------------------------------------
-------------------------------------
-------------------------------------
-------------------------------------
-------------------------------------
-------------------------------------
-------------------------------------
-
-
-/* make updates */
-UPDATE regents19 SET subject='Regents Common Core Algebra I' WHERE subject ='REG_COMALG1'
-UPDATE regents19 SET subject='Regents Common Core Algebra II' WHERE subject ='REG_COMALG2'
-UPDATE regents19 SET subject='Regents Common Core Geometry' WHERE subject ='REG_COMGEOM'
-UPDATE regents19 SET per_prof=NULL WHERE per_prof =''
-UPDATE regents19 SET tested=NULL WHERE tested ='s'
-UPDATE math21 SET not_tested=NULL WHERE not_tested=0
